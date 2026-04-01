@@ -2,7 +2,7 @@
 
 > Your `git diff` deserves better than "fix stuff". Get commit messages with style.
 
-A [Claude Code](https://claude.ai/code) skill that generates accurate and creative commit messages from git diffs in 6 styles — from strict Conventional Commits to literary haiku and Lu Xun-style prose.
+An [OpenClaw](https://openclawskill.ai) skill that generates accurate and creative commit messages from git diffs in 6 styles — from strict Conventional Commits to literary haiku and Lu Xun-style prose.
 
 ## Features
 
@@ -24,12 +24,12 @@ A [Claude Code](https://claude.ai/code) skill that generates accurate and creati
 ## Installation
 
 ```bash
-claude skill add daizhouchen/commit-poet
+npx @anthropic-ai/claw@latest skill add daizhouchen/commit-poet
 ```
 
 ## How It Works
 
-1. Claude reads `git diff --cached` (staged) or `git diff` (unstaged)
+1. OpenClaw reads `git diff --cached` (staged) or `git diff` (unstaged)
 2. Analyzes: what was added/removed/modified, which modules affected
 3. Generates commit message in your chosen style (default: conventional)
 
