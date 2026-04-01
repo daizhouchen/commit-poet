@@ -2,7 +2,7 @@
 
 > Turn your `git diff` into commit messages worth reading.
 
-An [OpenClaw](https://openclawskill.ai) skill for Claude Code that reads your git diffs and generates accurate, well-crafted commit messages in six distinct styles. From strict Conventional Commits to emoji one-liners to literary haiku, commit-poet analyzes your actual changes -- file-by-file, line-by-line -- and produces messages that are both truthful and stylish.
+An [OpenClaw](https://openclawskill.ai) skill for OpenClaw that reads your git diffs and generates accurate, well-crafted commit messages in six distinct styles. From strict Conventional Commits to emoji one-liners to literary haiku, commit-poet analyzes your actual changes -- file-by-file, line-by-line -- and produces messages that are both truthful and stylish.
 
 ## Style Gallery
 
@@ -118,7 +118,7 @@ npx @anthropic-ai/claw@latest skill add daizhouchen/commit-poet
 
 ```bash
 git add -p                              # stage your changes
-# In Claude Code, say: "write me a commit message"
+# In OpenClaw, say: "write me a commit message"
 ```
 
 Or preview the diff first with the helper script:
@@ -190,7 +190,7 @@ commit-poet/
 
 - **Git** -- must be inside a git repository
 - **Bash** -- for the `get_diff.sh` helper script
-- **Claude Code** with OpenClaw skill support
+- **OpenClaw** with OpenClaw skill support
 
 ## Contributing
 
